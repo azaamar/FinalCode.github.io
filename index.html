@@ -12,8 +12,8 @@
     color: #1a1a1a;
     margin: 0;
     display: flex;
-    flex-direction: column; /* Stacks nav and content-area vertically */
-    min-height: 100vh;      /* Ensures body takes up full screen height */
+    flex-direction: column; 
+    min-height: 100vh;      
     transition: background-color 0.5s ease;
 }
 
@@ -149,12 +149,28 @@
     .nav-links a:hover::after {
         width: 100%;
     }
-
-    /* Active page indicator */
+    
     .nav-links a.active {
         color: #2563eb;
         font-weight: 600;
     }
+    .game-card {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+/* This ensures the card stays dark during the "Level Max" glitch */
+.level-max .game-card {
+    background: rgba(20, 20, 20, 0.9);
+    border: 2px solid #ff0000;
+    color: white;
+}
 </style>
 </head>
 
