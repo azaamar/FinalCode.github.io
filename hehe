@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <link rel="stylesheet" href="mystyles.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="resume.html">Resume</a> |
+        <a href="scratch.html">Scratch</a>
+    </nav>
+
+    <h1>Welcome to my site</h1>
+    <p>This is the home page.</p>
+
+</body>
+</html>
