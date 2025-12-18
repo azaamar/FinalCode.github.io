@@ -1,38 +1,92 @@
-/* 1. Custom Background and Font Family */
+/* 1. Custom Background & Typography */
 body {
-    background-color: #f0f4f7; 
-    font-family: 'Verdana', sans-serif;
-    color: #2c3e50;
+    background-color: #f4f7f6; /* Soft professional grey-green */
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+    color: #334e68; /* High contrast, readable blue-grey */
     margin: 0;
-    padding: 40px;
+    line-height: 1.6;
 }
 
-/* 2. Style for Block Positioning (At least three divs) */
+/* 2. Div for Main Container Positioning */
 .container {
-    max-width: 900px;
-    margin: auto;
-    background: white;
+    max-width: 850px;
+    margin: 20px auto;
     padding: 20px;
-    border-radius: 10px;
 }
 
+/* 3. Div for Content Blocks */
 .content-block {
-    margin-bottom: 40px;
-    padding: 20px;
-    border-left: 5px solid #003566;
+    background: #ffffff;
+    margin-bottom: 30px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
-/* 3. Font Color/Heading Style */
+/* 4. Navigation Styling */
+.main-nav {
+    background: #102a43; /* Professional dark navy */
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.main-nav a {
+    color: #f0f4f8;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.main-nav a:hover {
+    color: #627d98;
+}
+
+/* Heading Colors & Typography */
 h1, h3 {
-    color: #003566;
+    color: #243b53;
+    font-family: 'Georgia', serif; /* Serif for headings adds a professional feel */
 }
 
-/* 4. Button Styling */
+/* Responsive Video Container */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* Button & Call to Action */
 .btn-app {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #e67e22;
-    color: white;
+    padding: 12px 24px;
+    background-color: #27ab83; /* Professional green */
+    color: white !important;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s;
 }
+
+.btn-app:hover {
+    background-color: #1c7c60;
+}
+
+.featured-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-center { text-align: center; }
