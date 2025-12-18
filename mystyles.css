@@ -1,4 +1,4 @@
-/* ===== Base Reset ===== */
+
 * {
     box-sizing: border-box;
 }
@@ -11,7 +11,7 @@ body {
     line-height: 1.65;
 }
 
-/* ===== Navigation ===== */
+
 .top-nav {
     background-color: #ffffff;
     border-bottom: 1px solid #e5e7eb;
@@ -55,12 +55,11 @@ body {
     bottom: -6px;
     width: 0%;
     height: 2px;
-    background: #2563eb; /* Change from green to blue */
+    background: #2563eb; 
     transition: width 0.25s ease;
 }
 }
 
-/* ===== Hero Header ===== */
 .hero-header {
     background: linear-gradient(135deg, #102a43, #243b53);
     color: #f0f4f8;
@@ -82,14 +81,14 @@ body {
     color: #243b53;
 }
 
-/* ===== Layout Container ===== */
+
 .container {
     max-width: 900px;
     margin: -40px auto 60px;
     padding: 0 20px;
 }
 
-/* ===== Content Cards ===== */
+
 .content-block {
     background: #ffffff;
     padding: 40px;
@@ -98,12 +97,12 @@ body {
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
 }
 
-/* Accent card */
+
 .accent-box {
     border-left: 6px solid #27ab83;
 }
 
-/* ===== Headings ===== */
+
 h3 {
     font-family: 'Georgia', serif;
     font-size: 1.5rem;
@@ -111,7 +110,7 @@ h3 {
     color: #243b53;
 }
 
-/* ===== Image ===== */
+
 .featured-img {
     width: 100%;
     max-width: 720px;
@@ -119,7 +118,7 @@ h3 {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
-/* ===== Lists ===== */
+
 .main-list {
     padding-left: 20px;
 }
@@ -134,7 +133,7 @@ h3 {
     color: #486581;
 }
 
-/* ===== Video ===== */
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -151,7 +150,7 @@ h3 {
     height: 100%;
 }
 
-/* ===== Buttons ===== */
+
 .btn-app {
     display: inline-block;
     margin-top: 16px;
@@ -169,7 +168,7 @@ h3 {
     transform: translateY(-2px);
 }
 
-/* ===== Footer ===== */
+
 footer {
     text-align: center;
     padding: 40px 0 20px;
