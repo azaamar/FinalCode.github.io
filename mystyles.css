@@ -67,6 +67,23 @@ h1, h3 {
     border-radius: 8px;
 }
 
+.top-nav {
+    background: #102a43;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.top-nav a {
+    color: #f0f4f8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 /* Button & Call to Action */
 .btn-app {
     display: inline-block;
