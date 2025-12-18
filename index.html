@@ -5,19 +5,25 @@
 <title>Mind Reader: AI Edition</title>
 
 <style>
-    /* Base Styles */
     body {
-        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-        background-color: #f0f2f5;
-        color: #1a1a1a;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        overflow: hidden;
-        transition: all 0.5s ease;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #1a1a1a;
+    margin: 0;
     }
+
+    .page-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 70px); /* accounts for nav height */
+    padding-top: 40px;
+}
+    
+    .top-nav {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
 
     /* Dynamic Glitch Backgrounds */
     .level-1 { background-color: #e1e8ed; }
@@ -165,6 +171,17 @@
     <a href="scratch.html">Scratch</a>
   </div>
 </nav>
+
+<main class="page-content">
+    <div class="mind-card">
+        <h2>🧠 Mind Reader</h2>
+        <p class="subtitle">I’m thinking of a number… can you find it?</p>
+        <input type="number" placeholder="Enter your guess" />
+        <button>Analyze Thought</button>
+        <p class="status">System ready.</p>
+    </div>
+</main>
+
     
 <div class="game-card">
     <h1 id="title">🤖 Mind Reader</h1>
